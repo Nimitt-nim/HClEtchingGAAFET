@@ -56,5 +56,5 @@ let num_threads=20
 etch spacing=0.001 time=etch_time<s> method=pmc
 ##end - run pmc
 
-save type=dc dc_version=2 file=result.tdr
+save type=dc dc_version=2 file=GAA/fileetch_time/result_Clflux_Clexponent_p1_p2_p3_p4.tdr
 ##end - script
