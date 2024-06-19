@@ -4,7 +4,7 @@ export etch_time1=2.2556
 etch_time2=4.5112
 etch_time3=6.7668
 etch_time4=9.0224
-etch_time5=11.277999999999999
+etch_time5=11.278
 Clflux=0.00133
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -14,7 +14,7 @@ export etch_time1=1.3761
 etch_time2=2.7522
 etch_time3=4.1283
 etch_time4=5.5044
-etch_time5=6.8805000000000005
+etch_time5=6.8805
 Clflux=0.00218
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -22,7 +22,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00264
 mkdir -p Data_GAA/PMC_files/results_0.00264
 export etch_time1=1.1364
 etch_time2=2.2728
-etch_time3=3.4092000000000002
+etch_time3=3.4092
 etch_time4=4.5456
 etch_time5=5.682
 Clflux=0.00264
@@ -34,7 +34,7 @@ export etch_time1=4.4776
 etch_time2=8.9552
 etch_time3=13.4328
 etch_time4=17.9104
-etch_time5=22.387999999999998
+etch_time5=22.388
 Clflux=0.00067
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -62,7 +62,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00306
 mkdir -p Data_GAA/PMC_files/results_0.00306
 export etch_time1=0.9804
 etch_time2=1.9608
-etch_time3=2.9412000000000003
+etch_time3=2.9412
 etch_time4=3.9216
 etch_time5=4.902
 Clflux=0.00306
@@ -84,7 +84,7 @@ export etch_time1=1.4286
 etch_time2=2.8572
 etch_time3=4.2858
 etch_time4=5.7144
-etch_time5=7.143000000000001
+etch_time5=7.143
 Clflux=0.0021
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -114,7 +114,7 @@ export etch_time1=1.3393
 etch_time2=2.6786
 etch_time3=4.0179
 etch_time4=5.3572
-etch_time5=6.6964999999999995
+etch_time5=6.6965
 Clflux=0.00224
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -122,9 +122,9 @@ mkdir -p Data_GAA/TDR_files/results_0.00115
 mkdir -p Data_GAA/PMC_files/results_0.00115
 export etch_time1=2.6087
 etch_time2=5.2174
-etch_time3=7.826099999999999
+etch_time3=7.8261
 etch_time4=10.4348
-etch_time5=13.043499999999998
+etch_time5=13.0435
 Clflux=0.00115
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -142,7 +142,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00251
 mkdir -p Data_GAA/PMC_files/results_0.00251
 export etch_time1=1.1952
 etch_time2=2.3904
-etch_time3=3.5856000000000003
+etch_time3=3.5856
 etch_time4=4.7808
 etch_time5=5.976
 Clflux=0.00251
@@ -154,7 +154,7 @@ export etch_time1=2.6786
 etch_time2=5.3572
 etch_time3=8.0358
 etch_time4=10.7144
-etch_time5=13.392999999999999
+etch_time5=13.393
 Clflux=0.00112
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -172,7 +172,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00153
 mkdir -p Data_GAA/PMC_files/results_0.00153
 export etch_time1=1.9608
 etch_time2=3.9216
-etch_time3=5.8824000000000005
+etch_time3=5.8824
 etch_time4=7.8432
 etch_time5=9.804
 Clflux=0.00153
@@ -222,7 +222,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00191
 mkdir -p Data_GAA/PMC_files/results_0.00191
 export etch_time1=1.5707
 etch_time2=3.1414
-etch_time3=4.7120999999999995
+etch_time3=4.7121
 etch_time4=6.2828
 etch_time5=7.8535
 Clflux=0.00191
@@ -232,9 +232,9 @@ mkdir -p Data_GAA/TDR_files/results_0.00247
 mkdir -p Data_GAA/PMC_files/results_0.00247
 export etch_time1=1.2146
 etch_time2=2.4292
-etch_time3=3.6437999999999997
+etch_time3=3.6438
 etch_time4=4.8584
-etch_time5=6.0729999999999995
+etch_time5=6.073
 Clflux=0.00247
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -252,9 +252,9 @@ mkdir -p Data_GAA/TDR_files/results_0.00282
 mkdir -p Data_GAA/PMC_files/results_0.00282
 export etch_time1=1.0638
 etch_time2=2.1276
-etch_time3=3.1914000000000002
+etch_time3=3.1914
 etch_time4=4.2552
-etch_time5=5.319000000000001
+etch_time5=5.319
 Clflux=0.00282
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -282,7 +282,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00306
 mkdir -p Data_GAA/PMC_files/results_0.00306
 export etch_time1=0.9804
 etch_time2=1.9608
-etch_time3=2.9412000000000003
+etch_time3=2.9412
 etch_time4=3.9216
 etch_time5=4.902
 Clflux=0.00306
@@ -294,7 +294,7 @@ export etch_time1=2.027
 etch_time2=4.054
 etch_time3=6.081
 etch_time4=8.108
-etch_time5=10.135000000000002
+etch_time5=10.135
 Clflux=0.00148
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -304,7 +304,7 @@ export etch_time1=1.0135
 etch_time2=2.027
 etch_time3=3.0405
 etch_time4=4.054
-etch_time5=5.067500000000001
+etch_time5=5.0675
 Clflux=0.00296
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -324,7 +324,7 @@ export etch_time1=1.2712
 etch_time2=2.5424
 etch_time3=3.8136
 etch_time4=5.0848
-etch_time5=6.356000000000001
+etch_time5=6.356
 Clflux=0.00236
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -334,7 +334,7 @@ export etch_time1=2.027
 etch_time2=4.054
 etch_time3=6.081
 etch_time4=8.108
-etch_time5=10.135000000000002
+etch_time5=10.135
 Clflux=0.00148
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -362,7 +362,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00054
 mkdir -p Data_GAA/PMC_files/results_0.00054
 export etch_time1=5.5556
 etch_time2=11.1112
-etch_time3=16.666800000000002
+etch_time3=16.6668
 etch_time4=22.2224
 etch_time5=27.778
 Clflux=0.00054
@@ -382,7 +382,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00095
 mkdir -p Data_GAA/PMC_files/results_0.00095
 export etch_time1=3.1579
 etch_time2=6.3158
-etch_time3=9.473700000000001
+etch_time3=9.4737
 etch_time4=12.6316
 etch_time5=15.7895
 Clflux=0.00095
@@ -392,7 +392,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00232
 mkdir -p Data_GAA/PMC_files/results_0.00232
 export etch_time1=1.2931
 etch_time2=2.5862
-etch_time3=3.8792999999999997
+etch_time3=3.8793
 etch_time4=5.1724
 etch_time5=6.4655
 Clflux=0.00232
@@ -402,9 +402,9 @@ mkdir -p Data_GAA/TDR_files/results_0.00146
 mkdir -p Data_GAA/PMC_files/results_0.00146
 export etch_time1=2.0548
 etch_time2=4.1096
-etch_time3=6.1644000000000005
+etch_time3=6.1644
 etch_time4=8.2192
-etch_time5=10.274000000000001
+etch_time5=10.274
 Clflux=0.00146
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -412,7 +412,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00113
 mkdir -p Data_GAA/PMC_files/results_0.00113
 export etch_time1=2.6549
 etch_time2=5.3098
-etch_time3=7.964700000000001
+etch_time3=7.9647
 etch_time4=10.6196
 etch_time5=13.2745
 Clflux=0.00113
@@ -422,7 +422,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00335
 mkdir -p Data_GAA/PMC_files/results_0.00335
 export etch_time1=0.8955
 etch_time2=1.791
-etch_time3=2.6864999999999997
+etch_time3=2.6865
 etch_time4=3.582
 etch_time5=4.4775
 Clflux=0.00335
@@ -434,7 +434,7 @@ export etch_time1=1.4423
 etch_time2=2.8846
 etch_time3=4.3269
 etch_time4=5.7692
-etch_time5=7.211499999999999
+etch_time5=7.2115
 Clflux=0.00208
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -442,7 +442,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00061
 mkdir -p Data_GAA/PMC_files/results_0.00061
 export etch_time1=4.918
 etch_time2=9.836
-etch_time3=14.754000000000001
+etch_time3=14.754
 etch_time4=19.672
 etch_time5=24.59
 Clflux=0.00061
@@ -454,7 +454,7 @@ export etch_time1=1.1194
 etch_time2=2.2388
 etch_time3=3.3582
 etch_time4=4.4776
-etch_time5=5.5969999999999995
+etch_time5=5.597
 Clflux=0.00268
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -462,7 +462,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00069
 mkdir -p Data_GAA/PMC_files/results_0.00069
 export etch_time1=4.3478
 etch_time2=8.6956
-etch_time3=13.043400000000002
+etch_time3=13.0434
 etch_time4=17.3912
 etch_time5=21.739
 Clflux=0.00069
@@ -474,7 +474,7 @@ export etch_time1=1.0714
 etch_time2=2.1428
 etch_time3=3.2142
 etch_time4=4.2856
-etch_time5=5.356999999999999
+etch_time5=5.357
 Clflux=0.0028
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -482,9 +482,9 @@ mkdir -p Data_GAA/TDR_files/results_0.00281
 mkdir -p Data_GAA/PMC_files/results_0.00281
 export etch_time1=1.0676
 etch_time2=2.1352
-etch_time3=3.2028000000000003
+etch_time3=3.2028
 etch_time4=4.2704
-etch_time5=5.338000000000001
+etch_time5=5.338
 Clflux=0.00281
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -502,7 +502,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00216
 mkdir -p Data_GAA/PMC_files/results_0.00216
 export etch_time1=1.3889
 etch_time2=2.7778
-etch_time3=4.1667000000000005
+etch_time3=4.1667
 etch_time4=5.5556
 etch_time5=6.9445
 Clflux=0.00216
@@ -512,7 +512,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00178
 mkdir -p Data_GAA/PMC_files/results_0.00178
 export etch_time1=1.6854
 etch_time2=3.3708
-etch_time3=5.0562000000000005
+etch_time3=5.0562
 etch_time4=6.7416
 etch_time5=8.427
 Clflux=0.00178
@@ -532,7 +532,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00258
 mkdir -p Data_GAA/PMC_files/results_0.00258
 export etch_time1=1.1628
 etch_time2=2.3256
-etch_time3=3.4884000000000004
+etch_time3=3.4884
 etch_time4=4.6512
 etch_time5=5.814
 Clflux=0.00258
@@ -552,7 +552,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00258
 mkdir -p Data_GAA/PMC_files/results_0.00258
 export etch_time1=1.1628
 etch_time2=2.3256
-etch_time3=3.4884000000000004
+etch_time3=3.4884
 etch_time4=4.6512
 etch_time5=5.814
 Clflux=0.00258
@@ -572,7 +572,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00095
 mkdir -p Data_GAA/PMC_files/results_0.00095
 export etch_time1=3.1579
 etch_time2=6.3158
-etch_time3=9.473700000000001
+etch_time3=9.4737
 etch_time4=12.6316
 etch_time5=15.7895
 Clflux=0.00095
@@ -592,7 +592,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00191
 mkdir -p Data_GAA/PMC_files/results_0.00191
 export etch_time1=1.5707
 etch_time2=3.1414
-etch_time3=4.7120999999999995
+etch_time3=4.7121
 etch_time4=6.2828
 etch_time5=7.8535
 Clflux=0.00191
@@ -602,7 +602,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00183
 mkdir -p Data_GAA/PMC_files/results_0.00183
 export etch_time1=1.6393
 etch_time2=3.2786
-etch_time3=4.9178999999999995
+etch_time3=4.9179
 etch_time4=6.5572
 etch_time5=8.1965
 Clflux=0.00183
@@ -652,7 +652,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00142
 mkdir -p Data_GAA/PMC_files/results_0.00142
 export etch_time1=2.1127
 etch_time2=4.2254
-etch_time3=6.338099999999999
+etch_time3=6.3381
 etch_time4=8.4508
 etch_time5=10.5635
 Clflux=0.00142
@@ -664,7 +664,7 @@ export etch_time1=1.0417
 etch_time2=2.0834
 etch_time3=3.1251
 etch_time4=4.1668
-etch_time5=5.208500000000001
+etch_time5=5.2085
 Clflux=0.00288
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -684,7 +684,7 @@ export etch_time1=0.9091
 etch_time2=1.8182
 etch_time3=2.7273
 etch_time4=3.6364
-etch_time5=4.5455000000000005
+etch_time5=4.5455
 Clflux=0.0033
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -722,7 +722,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00171
 mkdir -p Data_GAA/PMC_files/results_0.00171
 export etch_time1=1.7544
 etch_time2=3.5088
-etch_time3=5.263199999999999
+etch_time3=5.2632
 etch_time4=7.0176
 etch_time5=8.772
 Clflux=0.00171
@@ -744,7 +744,7 @@ export etch_time1=1.1236
 etch_time2=2.2472
 etch_time3=3.3708
 etch_time4=4.4944
-etch_time5=5.617999999999999
+etch_time5=5.618
 Clflux=0.00267
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -752,7 +752,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00209
 mkdir -p Data_GAA/PMC_files/results_0.00209
 export etch_time1=1.4354
 etch_time2=2.8708
-etch_time3=4.3062000000000005
+etch_time3=4.3062
 etch_time4=5.7416
 etch_time5=7.177
 Clflux=0.00209
@@ -762,7 +762,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00127
 mkdir -p Data_GAA/PMC_files/results_0.00127
 export etch_time1=2.3622
 etch_time2=4.7244
-etch_time3=7.086600000000001
+etch_time3=7.0866
 etch_time4=9.4488
 etch_time5=11.811
 Clflux=0.00127
@@ -782,7 +782,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00126
 mkdir -p Data_GAA/PMC_files/results_0.00126
 export etch_time1=2.381
 etch_time2=4.762
-etch_time3=7.142999999999999
+etch_time3=7.143
 etch_time4=9.524
 etch_time5=11.905
 Clflux=0.00126
@@ -794,7 +794,7 @@ export etch_time1=1.9481
 etch_time2=3.8962
 etch_time3=5.8443
 etch_time4=7.7924
-etch_time5=9.740499999999999
+etch_time5=9.7405
 Clflux=0.00154
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -802,9 +802,9 @@ mkdir -p Data_GAA/TDR_files/results_0.00282
 mkdir -p Data_GAA/PMC_files/results_0.00282
 export etch_time1=1.0638
 etch_time2=2.1276
-etch_time3=3.1914000000000002
+etch_time3=3.1914
 etch_time4=4.2552
-etch_time5=5.319000000000001
+etch_time5=5.319
 Clflux=0.00282
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -812,7 +812,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00122
 mkdir -p Data_GAA/PMC_files/results_0.00122
 export etch_time1=2.459
 etch_time2=4.918
-etch_time3=7.377000000000001
+etch_time3=7.377
 etch_time4=9.836
 etch_time5=12.295
 Clflux=0.00122
@@ -822,7 +822,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00136
 mkdir -p Data_GAA/PMC_files/results_0.00136
 export etch_time1=2.2059
 etch_time2=4.4118
-etch_time3=6.617700000000001
+etch_time3=6.6177
 etch_time4=8.8236
 etch_time5=11.0295
 Clflux=0.00136
@@ -834,7 +834,7 @@ export etch_time1=2.2556
 etch_time2=4.5112
 etch_time3=6.7668
 etch_time4=9.0224
-etch_time5=11.277999999999999
+etch_time5=11.278
 Clflux=0.00133
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -882,7 +882,7 @@ mkdir -p Data_GAA/TDR_files/results_0.0031
 mkdir -p Data_GAA/PMC_files/results_0.0031
 export etch_time1=0.9677
 etch_time2=1.9354
-etch_time3=2.9031000000000002
+etch_time3=2.9031
 etch_time4=3.8708
 etch_time5=4.8385
 Clflux=0.0031
@@ -894,7 +894,7 @@ export etch_time1=1.31
 etch_time2=2.62
 etch_time3=3.93
 etch_time4=5.24
-etch_time5=6.550000000000001
+etch_time5=6.55
 Clflux=0.00229
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -902,7 +902,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00116
 mkdir -p Data_GAA/PMC_files/results_0.00116
 export etch_time1=2.5862
 etch_time2=5.1724
-etch_time3=7.7585999999999995
+etch_time3=7.7586
 etch_time4=10.3448
 etch_time5=12.931
 Clflux=0.00116
@@ -914,7 +914,7 @@ export etch_time1=2.6786
 etch_time2=5.3572
 etch_time3=8.0358
 etch_time4=10.7144
-etch_time5=13.392999999999999
+etch_time5=13.393
 Clflux=0.00112
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -954,7 +954,7 @@ export etch_time1=4.4776
 etch_time2=8.9552
 etch_time3=13.4328
 etch_time4=17.9104
-etch_time5=22.387999999999998
+etch_time5=22.388
 Clflux=0.00067
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time1/'$etch_time1'/g' -e 's/etch_time2/'$etch_time2'/g' -e 's/etch_time3/'$etch_time3'/g' -e 's/etch_time4/'$etch_time4'/g' -e 's/etch_time5/'$etch_time5'/g' simple.cmd > temp_simple.cmd
 stopo temp_simple.cmd
@@ -972,7 +972,7 @@ mkdir -p Data_GAA/TDR_files/results_0.00117
 mkdir -p Data_GAA/PMC_files/results_0.00117
 export etch_time1=2.5641
 etch_time2=5.1282
-etch_time3=7.6922999999999995
+etch_time3=7.6923
 etch_time4=10.2564
 etch_time5=12.8205
 Clflux=0.00117
