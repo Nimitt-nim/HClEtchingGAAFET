@@ -24,7 +24,7 @@ finalize_model model=HCl_etch_Si
 
 ##start - define distribution
 #define_species_distribution name=distribution exponent=1 species=H flux=3.0e-3
-define_species_distribution name=distribution exponent=ClExponent species=Cl flux=ClFlux
+define_species_distribution name=distribution exponent=1 species=Cl flux=ClFlux
 ##end - spdefine distribution
 
 ##start - define machine
@@ -33,17 +33,12 @@ define_etch_machine model=HCl_etch_Si species_distribution=distribution
 
 ##start - reaction properties
 # Original
-#add_reaction_properties reaction=SiCl p=0.4
-#add_reaction_properties reaction=SiCl2 p=0.005
+add_reaction_properties reaction=SiCl p=0.4
+add_reaction_properties reaction=SiCl2 p=0.005
 
-#add_reaction_properties reaction=GeCl p=0.7
-#add_reaction_properties reaction=GeCl2 p=0.05
+add_reaction_properties reaction=GeCl p=0.7
+add_reaction_properties reaction=GeCl2 p=0.05
 
-add_reaction_properties reaction=SiCl p=p1
-add_reaction_properties reaction=SiCl2 p=p2
-
-add_reaction_properties reaction=GeCl p=p3
-add_reaction_properties reaction=GeCl2 p=p4
 
 ##end - reaction properties
 
@@ -56,5 +51,5 @@ let num_threads=20
 etch spacing=0.001 time=etch_time<s> method=pmc
 ##end - run pmc
 
-save type=dc dc_version=2 file=GAA/fileetch_time/result_Clflux_Clexponent_p1_p2_p3_p4.tdr
+save type=dc dc_version=2 file=GAA/fileetch_time/result_Clflux_etch_time.tdr
 ##end - script
