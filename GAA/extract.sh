@@ -1,6 +1,6 @@
 mkdir -p Data_GAA/CSV_files/results_0.00133
-Clflux=0.00133
-export etch_time=2.2556
+export Clflux=0.00133
+etch_time=2.2556
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.5112
@@ -16,8 +16,8 @@ etch_time=11.278
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00218
-Clflux=0.00218
-export etch_time=1.3761
+export Clflux=0.00218
+etch_time=1.3761
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.7522
@@ -33,8 +33,8 @@ etch_time=6.8805
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00264
-Clflux=0.00264
-export etch_time=1.1364
+export Clflux=0.00264
+etch_time=1.1364
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.2728
@@ -50,8 +50,8 @@ etch_time=5.682
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00067
-Clflux=0.00067
-export etch_time=4.4776
+export Clflux=0.00067
+etch_time=4.4776
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=8.9552
@@ -67,8 +67,8 @@ etch_time=22.388
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00157
-Clflux=0.00157
-export etch_time=1.9108
+export Clflux=0.00157
+etch_time=1.9108
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.8216
@@ -84,8 +84,8 @@ etch_time=9.554
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00317
-Clflux=0.00317
-export etch_time=0.9464
+export Clflux=0.00317
+etch_time=0.9464
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.8928
@@ -101,8 +101,8 @@ etch_time=4.732
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00306
-Clflux=0.00306
-export etch_time=0.9804
+export Clflux=0.00306
+etch_time=0.9804
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.9608
@@ -118,8 +118,8 @@ etch_time=4.902
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00291
-Clflux=0.00291
-export etch_time=1.0309
+export Clflux=0.00291
+etch_time=1.0309
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.0618
@@ -135,8 +135,8 @@ etch_time=5.1545
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.0021
-Clflux=0.0021
-export etch_time=1.4286
+export Clflux=0.0021
+etch_time=1.4286
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.8572
@@ -152,8 +152,8 @@ etch_time=7.143
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00189
-Clflux=0.00189
-export etch_time=1.5873
+export Clflux=0.00189
+etch_time=1.5873
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.1746
@@ -169,8 +169,8 @@ etch_time=7.9365
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00302
-Clflux=0.00302
-export etch_time=0.9934
+export Clflux=0.00302
+etch_time=0.9934
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.9868
@@ -186,8 +186,8 @@ etch_time=4.967
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00224
-Clflux=0.00224
-export etch_time=1.3393
+export Clflux=0.00224
+etch_time=1.3393
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.6786
@@ -203,8 +203,8 @@ etch_time=6.6965
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00115
-Clflux=0.00115
-export etch_time=2.6087
+export Clflux=0.00115
+etch_time=2.6087
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.2174
@@ -220,8 +220,8 @@ etch_time=13.0435
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00167
-Clflux=0.00167
-export etch_time=1.7964
+export Clflux=0.00167
+etch_time=1.7964
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.5928
@@ -237,8 +237,8 @@ etch_time=8.982
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00251
-Clflux=0.00251
-export etch_time=1.1952
+export Clflux=0.00251
+etch_time=1.1952
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.3904
@@ -254,8 +254,8 @@ etch_time=5.976
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00112
-Clflux=0.00112
-export etch_time=2.6786
+export Clflux=0.00112
+etch_time=2.6786
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.3572
@@ -271,8 +271,8 @@ etch_time=13.393
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00283
-Clflux=0.00283
-export etch_time=1.0601
+export Clflux=0.00283
+etch_time=1.0601
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.1202
@@ -288,8 +288,8 @@ etch_time=5.3005
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00153
-Clflux=0.00153
-export etch_time=1.9608
+export Clflux=0.00153
+etch_time=1.9608
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.9216
@@ -305,8 +305,8 @@ etch_time=9.804
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00221
-Clflux=0.00221
-export etch_time=1.3575
+export Clflux=0.00221
+etch_time=1.3575
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.715
@@ -322,8 +322,8 @@ etch_time=6.7875
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00081
-Clflux=0.00081
-export etch_time=3.7037
+export Clflux=0.00081
+etch_time=3.7037
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=7.4074
@@ -339,8 +339,8 @@ etch_time=18.5185
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00205
-Clflux=0.00205
-export etch_time=1.4634
+export Clflux=0.00205
+etch_time=1.4634
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.9268
@@ -356,8 +356,8 @@ etch_time=7.317
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00256
-Clflux=0.00256
-export etch_time=1.1719
+export Clflux=0.00256
+etch_time=1.1719
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.3438
@@ -373,8 +373,8 @@ etch_time=5.8595
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00191
-Clflux=0.00191
-export etch_time=1.5707
+export Clflux=0.00191
+etch_time=1.5707
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.1414
@@ -390,8 +390,8 @@ etch_time=7.8535
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00247
-Clflux=0.00247
-export etch_time=1.2146
+export Clflux=0.00247
+etch_time=1.2146
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.4292
@@ -407,8 +407,8 @@ etch_time=6.073
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00261
-Clflux=0.00261
-export etch_time=1.1494
+export Clflux=0.00261
+etch_time=1.1494
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.2988
@@ -424,8 +424,8 @@ etch_time=5.747
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00282
-Clflux=0.00282
-export etch_time=1.0638
+export Clflux=0.00282
+etch_time=1.0638
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.1276
@@ -441,8 +441,8 @@ etch_time=5.319
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00222
-Clflux=0.00222
-export etch_time=1.3514
+export Clflux=0.00222
+etch_time=1.3514
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.7028
@@ -458,8 +458,8 @@ etch_time=6.757
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00111
-Clflux=0.00111
-export etch_time=2.7027
+export Clflux=0.00111
+etch_time=2.7027
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.4054
@@ -475,8 +475,8 @@ etch_time=13.5135
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00306
-Clflux=0.00306
-export etch_time=0.9804
+export Clflux=0.00306
+etch_time=0.9804
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.9608
@@ -492,8 +492,8 @@ etch_time=4.902
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00148
-Clflux=0.00148
-export etch_time=2.027
+export Clflux=0.00148
+etch_time=2.027
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.054
@@ -509,8 +509,8 @@ etch_time=10.135
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00296
-Clflux=0.00296
-export etch_time=1.0135
+export Clflux=0.00296
+etch_time=1.0135
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.027
@@ -526,8 +526,8 @@ etch_time=5.0675
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00197
-Clflux=0.00197
-export etch_time=1.5228
+export Clflux=0.00197
+etch_time=1.5228
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.0456
@@ -543,8 +543,8 @@ etch_time=7.614
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00236
-Clflux=0.00236
-export etch_time=1.2712
+export Clflux=0.00236
+etch_time=1.2712
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.5424
@@ -560,8 +560,8 @@ etch_time=6.356
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00148
-Clflux=0.00148
-export etch_time=2.027
+export Clflux=0.00148
+etch_time=2.027
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.054
@@ -577,8 +577,8 @@ etch_time=10.135
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.003
-Clflux=0.003
-export etch_time=1.0
+export Clflux=0.003
+etch_time=1.0
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.0
@@ -594,8 +594,8 @@ etch_time=5.0
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00174
-Clflux=0.00174
-export etch_time=1.7241
+export Clflux=0.00174
+etch_time=1.7241
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.4482
@@ -611,8 +611,8 @@ etch_time=8.6205
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00054
-Clflux=0.00054
-export etch_time=5.5556
+export Clflux=0.00054
+etch_time=5.5556
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=11.1112
@@ -628,8 +628,8 @@ etch_time=27.778
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00094
-Clflux=0.00094
-export etch_time=3.1915
+export Clflux=0.00094
+etch_time=3.1915
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=6.383
@@ -645,8 +645,8 @@ etch_time=15.9575
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00095
-Clflux=0.00095
-export etch_time=3.1579
+export Clflux=0.00095
+etch_time=3.1579
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=6.3158
@@ -662,8 +662,8 @@ etch_time=15.7895
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00232
-Clflux=0.00232
-export etch_time=1.2931
+export Clflux=0.00232
+etch_time=1.2931
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.5862
@@ -679,8 +679,8 @@ etch_time=6.4655
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00146
-Clflux=0.00146
-export etch_time=2.0548
+export Clflux=0.00146
+etch_time=2.0548
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.1096
@@ -696,8 +696,8 @@ etch_time=10.274
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00113
-Clflux=0.00113
-export etch_time=2.6549
+export Clflux=0.00113
+etch_time=2.6549
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.3098
@@ -713,8 +713,8 @@ etch_time=13.2745
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00335
-Clflux=0.00335
-export etch_time=0.8955
+export Clflux=0.00335
+etch_time=0.8955
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.791
@@ -730,8 +730,8 @@ etch_time=4.4775
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00208
-Clflux=0.00208
-export etch_time=1.4423
+export Clflux=0.00208
+etch_time=1.4423
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.8846
@@ -747,8 +747,8 @@ etch_time=7.2115
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00061
-Clflux=0.00061
-export etch_time=4.918
+export Clflux=0.00061
+etch_time=4.918
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=9.836
@@ -764,8 +764,8 @@ etch_time=24.59
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00268
-Clflux=0.00268
-export etch_time=1.1194
+export Clflux=0.00268
+etch_time=1.1194
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.2388
@@ -781,8 +781,8 @@ etch_time=5.597
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00069
-Clflux=0.00069
-export etch_time=4.3478
+export Clflux=0.00069
+etch_time=4.3478
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=8.6956
@@ -798,8 +798,8 @@ etch_time=21.739
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.0028
-Clflux=0.0028
-export etch_time=1.0714
+export Clflux=0.0028
+etch_time=1.0714
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.1428
@@ -815,8 +815,8 @@ etch_time=5.357
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00281
-Clflux=0.00281
-export etch_time=1.0676
+export Clflux=0.00281
+etch_time=1.0676
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.1352
@@ -832,8 +832,8 @@ etch_time=5.338
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00256
-Clflux=0.00256
-export etch_time=1.1719
+export Clflux=0.00256
+etch_time=1.1719
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.3438
@@ -849,8 +849,8 @@ etch_time=5.8595
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00216
-Clflux=0.00216
-export etch_time=1.3889
+export Clflux=0.00216
+etch_time=1.3889
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.7778
@@ -866,8 +866,8 @@ etch_time=6.9445
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00178
-Clflux=0.00178
-export etch_time=1.6854
+export Clflux=0.00178
+etch_time=1.6854
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.3708
@@ -883,8 +883,8 @@ etch_time=8.427
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00324
-Clflux=0.00324
-export etch_time=0.9259
+export Clflux=0.00324
+etch_time=0.9259
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.8518
@@ -900,8 +900,8 @@ etch_time=4.6295
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00258
-Clflux=0.00258
-export etch_time=1.1628
+export Clflux=0.00258
+etch_time=1.1628
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.3256
@@ -917,8 +917,8 @@ etch_time=5.814
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00333
-Clflux=0.00333
-export etch_time=0.9009
+export Clflux=0.00333
+etch_time=0.9009
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.8018
@@ -934,8 +934,8 @@ etch_time=4.5045
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00258
-Clflux=0.00258
-export etch_time=1.1628
+export Clflux=0.00258
+etch_time=1.1628
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.3256
@@ -951,8 +951,8 @@ etch_time=5.814
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00085
-Clflux=0.00085
-export etch_time=3.5294
+export Clflux=0.00085
+etch_time=3.5294
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=7.0588
@@ -968,8 +968,8 @@ etch_time=17.647
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00095
-Clflux=0.00095
-export etch_time=3.1579
+export Clflux=0.00095
+etch_time=3.1579
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=6.3158
@@ -985,8 +985,8 @@ etch_time=15.7895
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00084
-Clflux=0.00084
-export etch_time=3.5714
+export Clflux=0.00084
+etch_time=3.5714
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=7.1428
@@ -1002,8 +1002,8 @@ etch_time=17.857
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00191
-Clflux=0.00191
-export etch_time=1.5707
+export Clflux=0.00191
+etch_time=1.5707
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.1414
@@ -1019,8 +1019,8 @@ etch_time=7.8535
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00183
-Clflux=0.00183
-export etch_time=1.6393
+export Clflux=0.00183
+etch_time=1.6393
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.2786
@@ -1036,8 +1036,8 @@ etch_time=8.1965
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00167
-Clflux=0.00167
-export etch_time=1.7964
+export Clflux=0.00167
+etch_time=1.7964
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.5928
@@ -1053,8 +1053,8 @@ etch_time=8.982
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00246
-Clflux=0.00246
-export etch_time=1.2195
+export Clflux=0.00246
+etch_time=1.2195
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.439
@@ -1070,8 +1070,8 @@ etch_time=6.0975
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00065
-Clflux=0.00065
-export etch_time=4.6154
+export Clflux=0.00065
+etch_time=4.6154
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=9.2308
@@ -1087,8 +1087,8 @@ etch_time=23.077
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00096
-Clflux=0.00096
-export etch_time=3.125
+export Clflux=0.00096
+etch_time=3.125
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=6.25
@@ -1104,8 +1104,8 @@ etch_time=15.625
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00142
-Clflux=0.00142
-export etch_time=2.1127
+export Clflux=0.00142
+etch_time=2.1127
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.2254
@@ -1121,8 +1121,8 @@ etch_time=10.5635
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00288
-Clflux=0.00288
-export etch_time=1.0417
+export Clflux=0.00288
+etch_time=1.0417
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.0834
@@ -1138,8 +1138,8 @@ etch_time=5.2085
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00215
-Clflux=0.00215
-export etch_time=1.3953
+export Clflux=0.00215
+etch_time=1.3953
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.7906
@@ -1155,8 +1155,8 @@ etch_time=6.9765
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.0033
-Clflux=0.0033
-export etch_time=0.9091
+export Clflux=0.0033
+etch_time=0.9091
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.8182
@@ -1172,8 +1172,8 @@ etch_time=4.5455
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00293
-Clflux=0.00293
-export etch_time=1.0239
+export Clflux=0.00293
+etch_time=1.0239
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.0478
@@ -1189,8 +1189,8 @@ etch_time=5.1195
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00174
-Clflux=0.00174
-export etch_time=1.7241
+export Clflux=0.00174
+etch_time=1.7241
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.4482
@@ -1206,8 +1206,8 @@ etch_time=8.6205
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00093
-Clflux=0.00093
-export etch_time=3.2258
+export Clflux=0.00093
+etch_time=3.2258
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=6.4516
@@ -1223,8 +1223,8 @@ etch_time=16.129
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00171
-Clflux=0.00171
-export etch_time=1.7544
+export Clflux=0.00171
+etch_time=1.7544
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.5088
@@ -1240,8 +1240,8 @@ etch_time=8.772
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00262
-Clflux=0.00262
-export etch_time=1.145
+export Clflux=0.00262
+etch_time=1.145
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.29
@@ -1257,8 +1257,8 @@ etch_time=5.725
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00267
-Clflux=0.00267
-export etch_time=1.1236
+export Clflux=0.00267
+etch_time=1.1236
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.2472
@@ -1274,8 +1274,8 @@ etch_time=5.618
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00209
-Clflux=0.00209
-export etch_time=1.4354
+export Clflux=0.00209
+etch_time=1.4354
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.8708
@@ -1291,8 +1291,8 @@ etch_time=7.177
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00127
-Clflux=0.00127
-export etch_time=2.3622
+export Clflux=0.00127
+etch_time=2.3622
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.7244
@@ -1308,8 +1308,8 @@ etch_time=11.811
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00172
-Clflux=0.00172
-export etch_time=1.7442
+export Clflux=0.00172
+etch_time=1.7442
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.4884
@@ -1325,8 +1325,8 @@ etch_time=8.721
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00126
-Clflux=0.00126
-export etch_time=2.381
+export Clflux=0.00126
+etch_time=2.381
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.762
@@ -1342,8 +1342,8 @@ etch_time=11.905
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00154
-Clflux=0.00154
-export etch_time=1.9481
+export Clflux=0.00154
+etch_time=1.9481
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.8962
@@ -1359,8 +1359,8 @@ etch_time=9.7405
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00282
-Clflux=0.00282
-export etch_time=1.0638
+export Clflux=0.00282
+etch_time=1.0638
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.1276
@@ -1376,8 +1376,8 @@ etch_time=5.319
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00122
-Clflux=0.00122
-export etch_time=2.459
+export Clflux=0.00122
+etch_time=2.459
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.918
@@ -1393,8 +1393,8 @@ etch_time=12.295
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00136
-Clflux=0.00136
-export etch_time=2.2059
+export Clflux=0.00136
+etch_time=2.2059
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.4118
@@ -1410,8 +1410,8 @@ etch_time=11.0295
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00133
-Clflux=0.00133
-export etch_time=2.2556
+export Clflux=0.00133
+etch_time=2.2556
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.5112
@@ -1427,8 +1427,8 @@ etch_time=11.278
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00092
-Clflux=0.00092
-export etch_time=3.2609
+export Clflux=0.00092
+etch_time=3.2609
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=6.5218
@@ -1444,8 +1444,8 @@ etch_time=16.3045
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00084
-Clflux=0.00084
-export etch_time=3.5714
+export Clflux=0.00084
+etch_time=3.5714
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=7.1428
@@ -1461,8 +1461,8 @@ etch_time=17.857
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00346
-Clflux=0.00346
-export etch_time=0.8671
+export Clflux=0.00346
+etch_time=0.8671
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.7342
@@ -1478,8 +1478,8 @@ etch_time=4.3355
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00119
-Clflux=0.00119
-export etch_time=2.521
+export Clflux=0.00119
+etch_time=2.521
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.042
@@ -1495,8 +1495,8 @@ etch_time=12.605
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.0031
-Clflux=0.0031
-export etch_time=0.9677
+export Clflux=0.0031
+etch_time=0.9677
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=1.9354
@@ -1512,8 +1512,8 @@ etch_time=4.8385
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00229
-Clflux=0.00229
-export etch_time=1.31
+export Clflux=0.00229
+etch_time=1.31
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.62
@@ -1529,8 +1529,8 @@ etch_time=6.55
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00116
-Clflux=0.00116
-export etch_time=2.5862
+export Clflux=0.00116
+etch_time=2.5862
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.1724
@@ -1546,8 +1546,8 @@ etch_time=12.931
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00112
-Clflux=0.00112
-export etch_time=2.6786
+export Clflux=0.00112
+etch_time=2.6786
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.3572
@@ -1563,8 +1563,8 @@ etch_time=13.393
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00077
-Clflux=0.00077
-export etch_time=3.8961
+export Clflux=0.00077
+etch_time=3.8961
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=7.7922
@@ -1580,8 +1580,8 @@ etch_time=19.4805
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00182
-Clflux=0.00182
-export etch_time=1.6484
+export Clflux=0.00182
+etch_time=1.6484
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.2968
@@ -1597,8 +1597,8 @@ etch_time=8.242
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00174
-Clflux=0.00174
-export etch_time=1.7241
+export Clflux=0.00174
+etch_time=1.7241
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.4482
@@ -1614,8 +1614,8 @@ etch_time=8.6205
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00067
-Clflux=0.00067
-export etch_time=4.4776
+export Clflux=0.00067
+etch_time=4.4776
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=8.9552
@@ -1631,8 +1631,8 @@ etch_time=22.388
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00293
-Clflux=0.00293
-export etch_time=1.0239
+export Clflux=0.00293
+etch_time=1.0239
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=2.0478
@@ -1648,8 +1648,8 @@ etch_time=5.1195
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00117
-Clflux=0.00117
-export etch_time=2.5641
+export Clflux=0.00117
+etch_time=2.5641
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=5.1282
@@ -1665,8 +1665,8 @@ etch_time=12.8205
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00135
-Clflux=0.00135
-export etch_time=2.2222
+export Clflux=0.00135
+etch_time=2.2222
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=4.4444
@@ -1682,8 +1682,8 @@ etch_time=11.111
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 mkdir -p Data_GAA/CSV_files/results_0.00177
-Clflux=0.00177
-export etch_time=1.6949
+export Clflux=0.00177
+etch_time=1.6949
 sed  -e 's/Clflux/'$Clflux'/g' -e 's/etch_time/'$etch_time'/g' extract.cmd > temp_extract.cmd
 sptopo3d temp_extract.cmd
 etch_time=3.3898
