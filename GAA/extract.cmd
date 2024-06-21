@@ -2,25 +2,36 @@
 define_structure pmc_file=./pmc_model_output.pmc
 fill material=Blank thickness=0.0 
 ######################################################################
-set MN_Probes [list ]
+# Initialize the MN_Probes list
+set MN_Probes {}
+ 
+# Set initial values for M and N scans
 set M_Scan 0.006
 set M_Stop 0.026
 set M_Step 0.001
-
+ 
 set N_Scan 0
 set N_Stop 0.01
 set N_Step 0.001
 
+# Loop through M_Scan values
 while {$M_Scan <= $M_Stop} {
-	while {$N_Scan <= $N_Stop}{
-		set point [list]
-		lappend point $M_Scan
-		lappend point $N_Scan
-        lappend MN_probes [point]
-		set N_Scan [expr $N_Scan + $N_Step]
-	}
-	set M_Scan [expr $M_Scan + $M_Step]
+    
+    # Reset N_Scan for each new M_Scan
+    set N_Scan 0
+    # Loop through N_Scan values
+    while {$N_Scan <= $N_Stop} {
+        # Create a point list with current M_Scan and N_Scan values
+        set point [list $M_Scan $N_Scan]
+        # Append the point list to the MN_Probes list
+        lappend MN_Probes $point
+        # Increment N_Scan
+        set N_Scan [expr {$N_Scan + $N_Step}]
+    }
+    # Increment M_Scan
+    set M_Scan [expr {$M_Scan + $M_Step}]
 }
+
 ######################################################################
 
 set Metrology_out_file [open "Metrology_out.csv" "w"]
