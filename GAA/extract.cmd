@@ -39,12 +39,12 @@ puts $Metrology_out_file "x1, y1, z1, x2, y2, z2, Metrology_Out"
 ######################################################################
 foreach yz $MN_Probes {
 	set x1 0
-	set y1 $yz[0]
-	set z1 $yz[1]
+	set y1 [lindex $yz 0]
+	set z1 [lindex $yz 1]
 	set x2 0.014
-	set y2 $yz[0]
-	set z2 $yz[1]
+	set y2 [lindex $yz 0]
+	set z2 [lindex $yz 1]
 	set Metrology_Out [extract type=probe property=length  materials={SiGe} point1= "$x1 $y1 $z1" point2= "$x2 $y2 $z2" output=inside]
-	puts $Metrology_out_file "$x1, $y1, $z, $x2, $y2, $z, $Metrology_Out"
-	}
+	puts $Metrology_out_file "$x1, $y1, $z1, $x2, $y2, $z2, $Metrology_Out"
+}
 close $Metrology_out_file
