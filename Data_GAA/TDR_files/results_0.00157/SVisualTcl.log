@@ -1,0 +1,27 @@
+###########################################
+# Sentaurus Visual T-2022.03-SP1.
+# Tcl log file.
+#------------------------------------------
+# Date: Jun 20, 2024. 00:19:35.
+# Version: 33.0.7606963 (0.7606963)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: darkknight.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1160.76.1.el7.x86_64.
+###########################################
+
+load_file /home/nimitt/New/Final/Data_GAA/TDR_files/results_0.00157/result_0.00157_9.554.tdr -fod
+create_plot -dataset result_0.00157_9.554
+select_plots {Plot_result_0.00157_9.554}
+#-> Plot_result_0.00157_9.554
+#-> Plot_result_0.00157_9.554
+#-> result_0.00157_9.554
+create_cutplane -plot Plot_result_0.00157_9.554 -type y -at 0.015297
+#-> C1(result_0.00157_9.554)
+create_plot -dataset C1(result_0.00157_9.554) -ref_plot Plot_result_0.00157_9.554
+select_plots {Plot_C1(result_0.00157_9.554)}
+#-> Plot_C1(result_0.00157_9.554)
+#-> Plot_C1(result_0.00157_9.554)
+exit 0
+ 

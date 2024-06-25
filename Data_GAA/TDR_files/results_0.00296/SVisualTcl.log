@@ -1,0 +1,94 @@
+###########################################
+# Sentaurus Visual T-2022.03-SP1.
+# Tcl log file.
+#------------------------------------------
+# Date: Jun 20, 2024. 10:10:20.
+# Version: 33.0.7606963 (0.7606963)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: darkknight.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1160.76.1.el7.x86_64.
+###########################################
+
+load_file /home/nimitt/New/Final/Data_GAA/TDR_files/results_0.00296/result_0.00296_3.0405.tdr -fod
+create_plot -dataset result_0.00296_3.0405
+select_plots {Plot_result_0.00296_3.0405}
+#-> Plot_result_0.00296_3.0405
+#-> Plot_result_0.00296_3.0405
+#-> result_0.00296_3.0405
+load_file /home/nimitt/New/Final/Data_GAA/TDR_files/results_0.00232/result_0.00232_3.8793.tdr -fod
+create_plot -dataset result_0.00232_3.8793
+select_plots {Plot_result_0.00232_3.8793}
+#-> Plot_result_0.00232_3.8793
+#-> Plot_result_0.00232_3.8793
+#-> result_0.00232_3.8793
+select_plots {Plot_result_0.00296_3.0405}
+#-> Plot_result_0.00296_3.0405
+create_cutplane -plot Plot_result_0.00296_3.0405 -type y -at 0.0157352
+#-> C1(result_0.00296_3.0405)
+create_plot -dataset C1(result_0.00296_3.0405) -ref_plot Plot_result_0.00296_3.0405
+select_plots {Plot_C1(result_0.00296_3.0405)}
+#-> Plot_C1(result_0.00296_3.0405)
+#-> Plot_C1(result_0.00296_3.0405)
+select_plots {Plot_result_0.00232_3.8793}
+#-> Plot_result_0.00232_3.8793
+create_cutplane -plot Plot_result_0.00232_3.8793 -type y -at 0.0140035
+#-> C1(result_0.00232_3.8793)
+create_plot -dataset C1(result_0.00232_3.8793) -ref_plot Plot_result_0.00232_3.8793
+select_plots {Plot_C1(result_0.00232_3.8793)}
+#-> Plot_C1(result_0.00232_3.8793)
+#-> Plot_C1(result_0.00232_3.8793)
+undo
+remove_cutplanes -plot Plot_result_0.00232_3.8793 {C1}
+#-> C1
+undo
+undo
+undo
+remove_cutplanes -plot Plot_result_0.00296_3.0405 {C1}
+#-> C1
+undo
+create_cutplane -plot Plot_result_0.00296_3.0405 -type y -at 0.016
+#-> C2(result_0.00296_3.0405)
+create_plot -dataset C2(result_0.00296_3.0405) -ref_plot Plot_result_0.00296_3.0405
+select_plots {Plot_C2(result_0.00296_3.0405)}
+#-> Plot_C2(result_0.00296_3.0405)
+#-> Plot_C2(result_0.00296_3.0405)
+select_plots {Plot_result_0.00296_3.0405}
+#-> Plot_result_0.00296_3.0405
+select_plots {Plot_result_0.00296_3.0405 Plot_result_0.00232_3.8793}
+#-> Plot_result_0.00296_3.0405 Plot_result_0.00232_3.8793
+link_plots {Plot_result_0.00296_3.0405 Plot_result_0.00232_3.8793}
+#-> 1
+select_plots {Plot_result_0.00296_3.0405}
+#-> Plot_result_0.00296_3.0405
+select_plots {Plot_result_0.00232_3.8793}
+#-> Plot_result_0.00232_3.8793
+select_plots {Plot_C2(result_0.00296_3.0405)}
+#-> Plot_C2(result_0.00296_3.0405)
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+remove_cutplanes -plot Plot_result_0.00296_3.0405 {C2}
+#-> C2
+undo
+select_plots {Plot_result_0.00296_3.0405 Plot_result_0.00232_3.8793}
+#-> Plot_result_0.00296_3.0405 Plot_result_0.00232_3.8793
+link_plots {Plot_result_0.00296_3.0405 Plot_result_0.00232_3.8793}
+#-> 2
+create_cutplane -plot Plot_result_0.00232_3.8793 -type y -at 0.016
+#-> C3(result_0.00232_3.8793)
+create_plot -dataset C3(result_0.00296_3.0405) -ref_plot Plot_result_0.00232_3.8793
+select_plots {Plot_C3(result_0.00296_3.0405)}
+#-> Plot_C3(result_0.00296_3.0405)
+#-> Plot_C3(result_0.00296_3.0405)
+create_plot -dataset C3(result_0.00232_3.8793) -ref_plot Plot_result_0.00232_3.8793
+select_plots {Plot_C3(result_0.00232_3.8793)}
+#-> Plot_C3(result_0.00232_3.8793)
+#-> Plot_C3(result_0.00232_3.8793)
+select_plots {Plot_result_0.00296_3.0405}
+#-> Plot_result_0.00296_3.0405

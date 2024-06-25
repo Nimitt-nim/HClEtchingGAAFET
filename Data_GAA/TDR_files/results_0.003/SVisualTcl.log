@@ -1,0 +1,55 @@
+###########################################
+# Sentaurus Visual T-2022.03-SP1.
+# Tcl log file.
+#------------------------------------------
+# Date: Jun 21, 2024. 11:58:19.
+# Version: 33.0.7606963 (0.7606963)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: darkknight.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1160.76.1.el7.x86_64.
+###########################################
+
+load_file /home/nimitt/New/Final/Data_GAA/TDR_files/results_0.003/result_0.003_1.0.tdr -fod
+create_plot -dataset result_0.003_1.0
+select_plots {Plot_result_0.003_1.0}
+#-> Plot_result_0.003_1.0
+#-> Plot_result_0.003_1.0
+#-> result_0.003_1.0
+create_cutplane -plot Plot_result_0.003_1.0 -type y -at 0.015119
+#-> C1(result_0.003_1.0)
+create_plot -dataset C1(result_0.003_1.0) -ref_plot Plot_result_0.003_1.0
+select_plots {Plot_C1(result_0.003_1.0)}
+#-> Plot_C1(result_0.003_1.0)
+#-> Plot_C1(result_0.003_1.0)
+select_plots {Plot_result_0.003_1.0}
+#-> Plot_result_0.003_1.0
+set_cutplane_prop C1 -plot Plot_result_0.003_1.0 -at 0.015119
+#-> 0
+undo
+undo
+undo
+remove_cutplanes -plot Plot_result_0.003_1.0 {C1}
+#-> C1
+undo
+create_cutplane -plot Plot_result_0.003_1.0 -type y -at 0.014635
+#-> C2(result_0.003_1.0)
+create_plot -dataset C2(result_0.003_1.0) -ref_plot Plot_result_0.003_1.0
+select_plots {Plot_C2(result_0.003_1.0)}
+#-> Plot_C2(result_0.003_1.0)
+#-> Plot_C2(result_0.003_1.0)
+select_plots {Plot_result_0.003_1.0}
+#-> Plot_result_0.003_1.0
+set_cutplane_prop C2 -plot Plot_result_0.003_1.0 -at 0.014635
+#-> 0
+set_cutplane_prop C2 -plot Plot_result_0.003_1.0 -at 0.014635
+#-> 0
+set_cutplane_prop C2 -plot Plot_result_0.003_1.0 -at 0.011
+#-> 0
+set_cutplane_prop C2 -plot Plot_result_0.003_1.0 -at 0.011
+#-> 0
+select_plots {Plot_C2(result_0.003_1.0)}
+#-> Plot_C2(result_0.003_1.0)
+exit 0
+ 
